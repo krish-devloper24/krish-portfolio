@@ -1,19 +1,206 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar system</title>
-    <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Krish portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     
 </head>
 <body>
-      <div class="solor-system">
-        <div class="sun"></div>
-        <div class="planet mercury"></div>
-        <div class="planet venus"><
+        
+<div id="loader">
+Loading Portfolio...
+</div>
 
-        <script src="script.js"></script>
+<!-- NAVBAR -->
 
+<nav>
+
+<div class="logo">KrishDevloper</div>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="themeBtn">🌙</button>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+
+
+<h1>Hello I'm <span>Krish</span></h1>
+
+<p id="typing"></p>
+
+<a href="resume.pdf" download class="btn">
+Download Resume
+</a>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<p>
+
+I am a BCA student from Inmantec College Ghaziabad.
+I have skills in C, Java, Python, HTML and Cyber Security.
+I love creating websites and learning new technologies.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2 class="title">My Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill" onclick="openNotes('c')">
+<h3>C Programming</h3>
+</div>
+
+<div class="skill" onclick="openNotes('java')">
+<h3>Java</h3>
+</div>
+
+<div class="skill" onclick="openNotes('python')">
+<h3>Python</h3>
+</div>
+
+<div class="skill" onclick="openNotes('html')">
+<h3>HTML</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="project-container">
+
+<div class="project">
+
+<h3>Portfolio Website</h3>
+
+<p>
+Responsive portfolio website using HTML CSS JS.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Calculator App</h3>
+
+<p>
+Simple calculator using JavaScript.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>PKW Learning App</h3>
+
+<p>
+Learning app with login system and notes.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📞 7037377109</p>
+
+<p>📧 k.s8439577019@gmail.com</p>
+
+<p>📍 Ghaziabad, India</p>
+
+</div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button class="btn">Send</button>
+
+</form>
+
+<div class="socials">
+
+<a href="https://github.com/krish-devloper24" target="_blank">
+GitHub
+</a>
+
+<a href="#">
+LinkedIn
+</a>
+
+</div>
+
+</section>
+
+<!-- CLOCK -->
+
+<div id="clock"></div>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 Krish Portfolio | All Rights Reserved
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
+
